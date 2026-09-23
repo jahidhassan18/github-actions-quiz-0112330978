@@ -1,7 +1,3 @@
- grade.py
-# grade.py
-
-
 def get_grade(marks):
     if marks >= 80: return "A"
     if marks >= 70: return "B"
