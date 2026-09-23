@@ -1,0 +1,33 @@
+ grade.py
+# grade.py
+
+
+def get_grade(marks):
+    if marks >= 80: return "A"
+    if marks >= 70: return "B"
+    if marks >= 60: return "C"
+    if marks >= 50: return "D"
+    return "F"
+ 
+  test_grade.py
+# test_grade.py
+
+
+from grade import get_grade
+
+
+def test_a_grade():
+    assert get_grade(85) == "A"
+
+
+def test_b_grade():
+    assert get_grade(72) == "B"
+
+
+def test_c_grade():
+    assert get_grade(65) == "C"
+
+
+def test_f_grade():
+    assert get_grade(30) == "F"
+ 
