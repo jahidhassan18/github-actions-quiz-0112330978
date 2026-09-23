@@ -1,7 +1,3 @@
-  test_grade.py
-# test_grade.py
-
-
 from grade import get_grade
 
 
